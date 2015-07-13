@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ 
+  
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" 
+        android:background="@android:color/background_dark"
+        
+       
+        >
+
+        <!-- Name Label -->
+       
+        <TextView
+            android:id="@+id/movie_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:textColor="#43bd00"
+            android:textSize="25sp"
+            android:textStyle="bold" 
+            
+            />
+        <!-- Email Label -->
+
+        <TextView
+            android:id="@+id/quality_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#acacac" />
+        <!-- Mobile Label -->
+
+        <TextView
+            android:id="@+id/rating_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+
+       
+
+        <TextView
+            android:id="@+id/movieid_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" 
+            android:visibility="invisible"/>
+
+        <WebView
+            android:id="@+id/webView1"
+            android:layout_width="245dp"
+            android:layout_height="365dp"
+            android:background="@android:color/transparent" 
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/actor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"
+            android:textColor="#43bd00"
+            
+            android:padding="5dp"
+            
+           
+             />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="fill_parent"
+            android:layout_height="166dp"
+            android:lines="15"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"
+            android:textColor="#43bd00" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rnd"
+            android:drawableLeft="@drawable/yuicon"
+           
+            android:onClick="trailer"
+            android:text="WATCH TRAILER"
+            android:textColor="@android:color/holo_red_dark"
+             />
+
+    <TextView
+            android:id="@+id/movieid_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           
+            android:visibility="invisible"/>
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Down"
+            android:background="@drawable/rnd"
+            android:drawableLeft="@android:drawable/stat_sys_download"
+            android:text="DOWNLOAD TORRENT"
+             android:textStyle="bold" 
+            android:textColor="@android:color/black" 
+            
+            />
+    </LinearLayout>
+
+</ScrollView>

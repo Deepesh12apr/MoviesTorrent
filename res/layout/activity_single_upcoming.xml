@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="10dp">
+  <!-- Name Label -->
+  <TextView android:id="@+id/movie_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:textColor="#43bd00"/>
+  <!-- Email Label -->
+  <TextView android:id="@+id/quality_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#acacac"/>
+  <!-- Mobile Label -->
+  <TextView android:id="@+id/rating_label"
+      		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content"
+      		android:textStyle="bold"
+      		
+      		/>
+  
+
+
+     <WebView
+         android:id="@+id/webView1"
+         android:layout_width="120dp"
+         android:layout_height="177dp"
+         
+         />
+<TextView android:id="@+id/img_label"
+      		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content"
+      		android:textStyle="bold"/>
+
+<TextView android:id="@+id/torrent_label"
+      		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content"
+      		android:textStyle="bold"/>
+     <Button
+         android:id="@+id/button1"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Torrent not available"
+         android:onClick="Down"
+         android:background="@android:color/holo_green_light"
+          />
+
+</LinearLayout>
